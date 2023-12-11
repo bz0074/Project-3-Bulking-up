@@ -8,7 +8,7 @@ import uuid
 app = Flask(__name__)
 
 # Rate Limiter Configuration
-limiter = Limiter(app, key_func=get_remote_address, storage_uri="memory://")
+limiter = Limiter(app, storage_uri="memory://")
 
 # Password Hasher Configuration
 ph = PasswordHasher()
