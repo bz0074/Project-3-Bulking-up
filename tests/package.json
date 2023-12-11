@@ -1,0 +1,32 @@
+{
+  "name": "jwks-server",
+  "version": "1.0.0",
+  "description": "JWKS Server with enhanced security and user management",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "mocha test.server.js",
+    "coverage": "nyc npm test"
+  },
+  "keywords": [
+    "JWKS",
+    "security",
+    "authentication",
+    "user management"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "argon2": "^0.27.0",
+    "body-parser": "^1.19.0",
+    "crypto": "^1.0.1",
+    "express": "^4.17.1",
+    "sqlite3": "^5.0.2",
+    "uuid": "^9.0.1"
+  },
+  "devDependencies": {
+    "mocha": "^9.1.1",
+    "nyc": "^15.1.0",
+    "supertest": "^6.1.5"
+  }
+}
