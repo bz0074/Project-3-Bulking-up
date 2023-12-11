@@ -48,3 +48,8 @@ This project is a JWKS (JSON Web Key Set) server with enhanced security features
    ```bash
    git clone https://github.com/bz0074/Project-3-Bulking-up.git
    cd jwks-server
+
+###Screenshots
+ <img width="1439" alt="Screenshot 2023-12-11 at 12 27 33 PM" src="https://github.com/bz0074/Project-3-Bulking-up/assets/128610052/ed368bed-ae75-4dcf-a660-8615cb313ee9">
+<img width="942" alt="Screenshot 2023-12-11 at 12 25 11 PM" src="https://github.com/bz0074/Project-3-Bulking-up/assets/128610052/71689079-9629-4602-85c4-4f03821d99ed">
+
