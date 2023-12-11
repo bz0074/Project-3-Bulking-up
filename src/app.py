@@ -5,7 +5,13 @@ from flask_limiter.util import get_remote_address
 import sqlite3
 import uuid
 
+
+from flask_sqlalchemy import SQLAlchemy
+
 app = Flask(__name__)
+app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///your_database.db'
+db = SQLAlchemy(app)
+
 
 # Rate Limiter Configuration
 limiter = Limiter(app, storage_uri="memory://")
