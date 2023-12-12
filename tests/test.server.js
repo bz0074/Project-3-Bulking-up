@@ -1,6 +1,7 @@
 // test.server.js
 
 // tests/test.server.js
+const expect = require('chai').expect;
 
 const request = require('supertest');
 const app = require('../src/app'); // Adjust the path based on the project structure
