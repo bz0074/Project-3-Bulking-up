@@ -7,7 +7,8 @@ const crypto = require('crypto');
 const rateLimit = require('express-rate-limit');
 
 
-const app = require('./app'); // Import the express app from app.js
+
+const app = require('../src/app');// Import the express app from app.js
 const port = 3000;
 
 // Connect to SQLite database
