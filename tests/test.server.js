@@ -11,7 +11,7 @@ const app = require('../src/app'); // Adjust the path based on the project struc
 describe('API Tests', () => {
     it('should return a 200 status for GET /', async () => {
         const response = await request(app).get('/');
-        expect(response.statusCode).toBe(200);
+        expect(response.statusCode).to.equal(200);
         expect(response.body).toHaveProperty('message', 'Hello, welcome to the JWKS server!');
     });
 
@@ -20,7 +20,7 @@ describe('API Tests', () => {
             .post('/register')
             .send({ username: 'testuser', email: 'test@example.com' });
 
-        expect(response.statusCode).toBe(201);
+        expect(response.statusCode).to.equal(201);
         expect(response.body).toHaveProperty('password');
     });
 
@@ -30,8 +30,8 @@ describe('API Tests', () => {
             .post('/auth')
             .send({ username: 'testuser', password: 'testpassword' });
 
-        expect(response.statusCode).toBe(200);
-        expect(response.text).toBe('Authentication successful');
+        expect(response.statusCode).to.equal(200);
+        expect(response.text).to.equal('Authentication successful');
     });
 
     //more test cases as needed
