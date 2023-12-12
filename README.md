@@ -41,6 +41,21 @@ This project is a JWKS (JSON Web Key Set) server with enhanced security features
 - npm (Node Package Manager)
 - SQLite
 
+
+How to run my program: 
+clone the project
+cd to the src file
+then npm start 
+you will need to install : npm install express-rate-limit
+then the running will start and you will have where the4 server is running
+
+you need to go the the tests directory and 
+npm test 
+npm install chai --save-dev
+npm test
+npm run coverage 
+
+
 ### Installation
 
 1. Clone the repository:
@@ -49,7 +64,14 @@ This project is a JWKS (JSON Web Key Set) server with enhanced security features
    git clone https://github.com/bz0074/Project-3-Bulking-up.git
    cd jwks-server
 
+
+
 ###Screenshots
- <img width="1439" alt="Screenshot 2023-12-11 at 12 27 33 PM" src="https://github.com/bz0074/Project-3-Bulking-up/assets/128610052/ed368bed-ae75-4dcf-a660-8615cb313ee9">
-<img width="942" alt="Screenshot 2023-12-11 at 12 25 11 PM" src="https://github.com/bz0074/Project-3-Bulking-up/assets/128610052/71689079-9629-4602-85c4-4f03821d99ed">
+
+<img width="758" alt="Screenshot 2023-12-11 at 10 17 20 PM" src="https://github.com/bz0074/Project-3-Bulking-up/assets/128610052/0b948f89-04ed-4ec8-ac43-c9556204bef3">
+<img width="761" alt="Screenshot 2023-12-11 at 10 15 28 PM" src="https://github.com/bz0074/Project-3-Bulking-up/assets/128610052/60f8e829-b65c-4bf6-8bcb-001203aec8a3">
+<img width="757" alt="Screenshot 2023-12-11 at 10 15 16 PM" src="https://github.com/bz0074/Project-3-Bulking-up/assets/128610052/9304abcd-cd1f-4f42-baf4-efd440d85ef3">
+<img width="886" alt="Screenshot 2023-12-11 at 8 57 28 PM" src="https://github.com/bz0074/Project-3-Bulking-up/assets/128610052/d86d43bb-5d40-405c-a6e2-bc5d322a6fcd">
+<img width="891" alt="Screenshot 2023-12-11 at 8 57 13 PM" src="https://github.com/bz0074/Project-3-Bulking-up/assets/128610052/b17c451a-4c3c-4113-bd5b-f81729ed756f">
+
 
