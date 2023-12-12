@@ -9,7 +9,7 @@ const rateLimit = require('express-rate-limit');
 
 
 const app = require('../src/app');// Import the express app from app.js
-const port = 3000;
+const port = process.env.PORT || 3000;
 
 // Connect to SQLite database
 const db = new sqlite3.Database('your_database.db');
@@ -74,12 +74,8 @@ app.post('/auth', limiter, (req, res) => {
         }
     });
 
-    // Your authentication logic goes here...
-
     res.status(200).send('Authentication successful');
 });
 
 // Start the server
 app.listen(port, () => {
-    console.log(`Server is running on http://localhost:${port}`);
-});
